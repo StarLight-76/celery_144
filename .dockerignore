@@ -1,0 +1,25 @@
+# виртуальные окружения и кэши Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# артефакты приложения
+uploads/
+processed/
+out.png
+lama_600px.png
+
+# git и IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# тесты и локальная обвязка не нужны в образе
+tests/
+Dockerfile
+docker-compose.yml
+README.md
